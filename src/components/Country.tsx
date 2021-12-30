@@ -11,9 +11,14 @@ const Container = styled.div`
 `
 
 const Header = styled.h1`
+  font-family: 'Luckiest Guy', 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
   text-align: center;
-  font-size: 4rem;
-  color: #444;
+  font-size: 6rem;
+  letter-spacing: 6px;
+  color: ghostwhite;
+  text-shadow: 0 2px 6px #111;
 `
 
 const BackgroundContainer = styled.div`
