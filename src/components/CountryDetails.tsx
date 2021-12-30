@@ -27,7 +27,7 @@ const BackgroundImage = styled.div<{ image: string | null | undefined }>`
   margin-top: -2rem;
   transform: translateX(-50%);
 
-  opacity: 0.1;
+  opacity: 0.05;
   z-index: -1;
   filter: blur(12px);
 
