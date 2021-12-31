@@ -7,6 +7,7 @@ Tech used
 - React
 - Typescript
 - GraphQL / Apollo client
+- [GraphQL Country API](https://graphql.country/graphql)
 
 Progress
 -------------
