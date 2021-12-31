@@ -6,10 +6,6 @@ import CountryPreview from 'components/CountryPreview';
 import { useGetCountriesQuery } from 'generated/graphql';
 
 // #region styled
-const Container = styled.div`
-  margin: 100px 0;
-`
-
 const Header = styled.h1`
   font-family: 'Luckiest Guy', 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -18,7 +14,16 @@ const Header = styled.h1`
   font-size: 6rem;
   letter-spacing: 6px;
   color: ghostwhite;
-  text-shadow: 0 2px 6px #111;
+  text-shadow: 0 2px 6px #000;
+  background-color: #444;
+  padding: 6rem 0;
+  margin: 0;
+  
+  @media (max-width: 650px) {
+    padding: 3rem 0;
+    font-size: 3rem;
+    letter-spacing: 3px;
+  }
 `
 
 const BackgroundContainer = styled.div`
@@ -36,7 +41,7 @@ const Country: FC = () => {
   const { data, loading } = useGetCountriesQuery({ variables: { count: 9 } });
   const handleClick = (name: string) => setSelectedCountry(name)
   return (
-    <Container>
+    <div>
       <Header>FUN WITH FLAGS</Header>
       <BackgroundContainer>
         <Wrapper>
@@ -54,7 +59,7 @@ const Country: FC = () => {
       <Wrapper>
         {selectedCountry && <CountryDetails name={selectedCountry} />}
       </Wrapper>
-    </Container>
+    </div>
   );
 }
 
