@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/typescript-and-graphql-training/static/css/main.921fbb32.css",
+    "main.js": "/typescript-and-graphql-training/static/js/main.82c0167e.js",
+    "index.html": "/typescript-and-graphql-training/index.html",
+    "main.921fbb32.css.map": "/typescript-and-graphql-training/static/css/main.921fbb32.css.map",
+    "main.82c0167e.js.map": "/typescript-and-graphql-training/static/js/main.82c0167e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.921fbb32.css",
+    "static/js/main.82c0167e.js"
+  ]
+}
