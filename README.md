@@ -15,4 +15,4 @@ Progress
 
 Preview
 -------------
-![image](https://user-images.githubusercontent.com/6375613/147818901-046b129b-e2f5-4ee0-be29-64d93fddf433.png)
+![screely-1640947261518](https://user-images.githubusercontent.com/6375613/147818961-1b7ef3a7-dd94-419e-94b3-912bf15a9e29.png)
