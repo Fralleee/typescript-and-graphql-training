@@ -14,4 +14,4 @@ Progress
 
 Preview
 -------------
-![image](https://user-images.githubusercontent.com/6375613/147818578-7d6307be-d451-4e01-ab19-29632decafe0.png)
+![image](https://user-images.githubusercontent.com/6375613/147818654-5e4911dc-291b-45dc-8bbd-e9b050629b61.png)
