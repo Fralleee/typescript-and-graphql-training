@@ -4,9 +4,9 @@ A quick side project to learn Typescript and GraphQL
 
 Tech used
 -------------
-- React
-- Typescript
-- GraphQL / Apollo client
+- [React](https://reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Apollo client](https://www.apollographql.com/docs/react/)
 - [GraphQL Country API](https://graphql.country/graphql)
 
 Progress
